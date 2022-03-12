@@ -44,7 +44,7 @@ if (confirmUpper && confirmLower && confirmNum && confirmChar) {
 }
 
 if (!confirmUpper && !confirmLower && !confirmNum && !confirmChar) {
-    alert("hi")
+    alert("Please choose at least one password condition")
     return;
 }
 
